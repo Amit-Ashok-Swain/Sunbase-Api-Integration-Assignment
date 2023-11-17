@@ -53,10 +53,9 @@ The project structure is organized as follows:
 
 - For security reasons, consider using environment variables or a more secure approach for handling sensitive information like API tokens and credentials.
 
-## Authors
+## Contact
 
-- [Your Name]
-- [Your Email]
+For questions or feedback, please contact [Amit Ashok Swain](mailto:business.amitswain@gmail.com).
 
 Feel free to contribute or provide feedback on improving this application!
 
