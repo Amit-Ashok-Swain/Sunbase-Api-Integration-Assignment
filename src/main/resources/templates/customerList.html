@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer List</title>
+    <style>
+        /* Add your CSS styles for table, buttons, etc. here */
+        /* Example styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #dddddd; /* Add border to the table */
+        }
+        th, td {
+            border: 1px solid #dddddd; /* Add border to table cells */
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .btn-container {
+            text-align: left;
+        }
+        .add-customer-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            text-decoration: none;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1>Customer List</h1>
+<div class="btn-container">
+    <!-- Button to add a new customer -->
+    <a href="/add-customer" class="add-customer-btn">Add Customer</a>
+</div>
+<table>
+    <thead>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr>
+        <td>Amit</td>
+        <td>Swain</td>
+        <td>Kalamboli,Navi Mumbai</td>
+        <td>City</td>
+        <td>State</td>
+        <td>amit@project.com</td>
+        <td>1234567890</td>
+        <td>
+            <button>Edit</button>
+            <button>Delete</button>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
